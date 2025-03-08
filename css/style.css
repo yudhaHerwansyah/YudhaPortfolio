@@ -76,6 +76,10 @@ p {
   margin-top: 0;
   margin-bottom: 1rem; }
 
+.aboutme {
+text-align: justify;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -268,6 +272,51 @@ legend {
   line-height: inherit;
   color: inherit;
   white-space: normal; }
+
+  .skill-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    max-width: 250px; /* Batasi lebar daftar */
+    margin: 0 auto; /* Supaya daftar tetap berada di tengah */
+    color:#000;
+}
+
+.skill-list li {
+    background: #f8f9fa;
+    padding: 8px 12px; /* Sesuaikan padding agar tidak terlalu tinggi */
+    margin: 2px auto; /* Buat jarak antar kotak lebih kecil */
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block; /* Agar tidak full width */
+    width: 100%; /* Pastikan kotaknya tidak terlalu panjang */
+    text-align: center;
+}
+
+  .profile-container {
+    width: 400px; /* Ukuran lingkaran */
+    height: 400px; /* Pastikan sama dengan width */
+    border-radius: 50%; /* Membuat lingkaran */
+    overflow: hidden; /* Mencegah gambar keluar dari lingkaran */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-j {
+  text-align: center;
+}
+
+.hs-c {
+  color:#ffbd39;
+  margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Agar gambar tidak lonjong */
+}
 
 progress {
   vertical-align: baseline; }
