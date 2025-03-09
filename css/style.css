@@ -273,6 +273,25 @@ legend {
   color: inherit;
   white-space: normal; }
 
+  .podcast-icons {
+    margin-top: 15px;
+  }
+
+  .podcast-icons .icon {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .podcast-icons .icon:hover {
+    transform: scale(1.2);
+  }
+
+  .podcast-icons img {
+    width: 40px;
+    height: 40px;
+  }
+
   .slider-container {
     position: relative;
     width: 100%;
